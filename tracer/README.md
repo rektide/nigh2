@@ -40,6 +40,12 @@ The thunk function will immediately be invoked, and passed a single function it 
 
 Select all objects identified of the matching type.
 
+## Property Match Selector
+
+`https://archive.eldergods.com/selector/property-match`
+
+Selector will return any selections having the given property, or which eventually obtain the given property.
+
 # Discriminators
 
 Discriminators are passed a stream of selected objects (thereby acquiring a @type), and can alter the original selection or reject the selection

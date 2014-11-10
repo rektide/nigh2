@@ -1,8 +1,11 @@
 module.exports= {
-	'@id': 'https://archive.voodoowarez.com/night2/tracer/input-submit',
-	'@type': 'https://archive.voodoowarez.com/nigh2/tracer',
-	selector: 'input[type="submit"]',
-	tracer: function(e, tracer){
-		e.addEventListener('submit', tracer)
-	}
+	"@id": "https://archive.voodoowarez.com/trace/event/input-submit",
+	"@type": "https://archive.voodoowarez.com/trace",
+	trace: [{
+		"@type": "https://archive.voodoowarez.com/selector/css",
+		selector: "input[type='submit']"
+	}, {
+		"@type": "https://archive.voodoowarez.com/discriminator/event",
+		select: "submit"
+	}]
 }
