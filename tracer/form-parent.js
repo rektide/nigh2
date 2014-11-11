@@ -1,6 +1,6 @@
 module.exports= {
-	"@id": "https://archive.voodoowarez.com/trace/selector/form-parent",
-	"@type": "https://archive.voodoowarez.com/trace",
+	"@id": "https://archive.voodoowarez.com/tracer/selector/form-parent",
+	"@type": "https://archive.voodoowarez.com/tracer",
 	trace: [{
 		"@type": "https://archive.voodoowarez.com/selector/property-lookup",
 		selector: "target"
