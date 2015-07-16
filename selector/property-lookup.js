@@ -1,7 +1,10 @@
-var nigh2= require('../src/nigh2')
+var ctx= require("defaulter")("../src/nigh2", module, ctx, "night2")
 
 module.exports= function(config, generate){
-	var value= config.value
+	var value= config.value,
+	  src= config.root
+	
+	
 	if(value !== undefined){
 		nigh2.on('*', function(e){
 			if(e[config.selector] === value)

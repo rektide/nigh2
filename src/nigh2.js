@@ -1,8 +1,10 @@
 var Emisser= require('emisser'),
-  EventTypecaster= require('event-typecaster')
-var ctx= require('./ctx')
+  EventTypecaster= require('event-typecaster'),
+  defaulter= require("defaulter"),
+  Nigh2Ctx= require("./ctx")
 
-// nigh2 runs all tracers
+// nigh2 runs all tracer
 
-var ctx= module.exports= new Emisser()
-EventTypecaster(ctx, ctx.map)
+// a facade of a singleton context
+var nigh2= module.exports= new Night2Ctx()
+
